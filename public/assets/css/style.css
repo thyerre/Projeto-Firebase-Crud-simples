@@ -1,0 +1,21 @@
+.dateAmount{width: 35%}
+.descrit{width: 90%}
+.dateAmount_edite{width: 35%}
+.descrit_edite{width: 90%}
+.tb{border:solid 1px black;text-align: center}
+.crd{margin-top: 20px}
+.tbtotal{background-color: #222;color:white;text-align:left}
+.lixeira{margin-left:60%}
+.con{margin-top:50px}
+.action{width:300px}
+.dinheiro{margin-left: 20px;margin-top:-10px}
+.cal{margin-right: 20px;margin-top:-10px}
+.money{float:right;margin-right: 50px;margin-top:25px}
+.img_erro1{margin-left: 350px;margin-top: -60px}
+.img_erro2{margin-left: 350px;margin-top: -80px}
+.img_erro3{margin-left: 350px;margin-top: -60px}
+.img_erro4{margin-left: 110px;margin-top: -60px}
+.img_edit{float:right;margin-top:-40px;margin-right:39px}
+.img_edit1{float:right;margin-top:130px;margin-left:40%;position: absolute}
+.descri_excluido{font-size:15pt;margin-left: 20px; margin-top: 20px}
+.gif_lixeira{margin-left:40%}

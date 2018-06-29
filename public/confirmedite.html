@@ -1,0 +1,68 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        
+        <!--BOOTSTRAP -->        
+        <script src="assets/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css"> 
+        <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+        <script src="assets/js/jquery-3.3.1.js"></script>
+        <script src="assets/js/config.js"></script>
+        
+    </head>
+    <body onload="editar()">
+        <div class="container-fluid">            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"><img src="https://png.icons8.com/flat_round/48/000000/home.png">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="add.html"><img src="https://png.icons8.com/color/48/000000/plus-2-math.png">Add</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="list.html"><img src="https://png.icons8.com/dusk/50/000000/add.png">List</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <img src="https://png.icons8.com/dusk/48/000000/search-property.png">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </nav>   
+            </div>
+            <div class="container con">
+                <div class="card alert alert-success" style="width: 50%;margin-left:20%">
+                    <div class="card-header " id="sucesso">
+                        <h4 class="alert-heading">Edição</h4>
+                        <form>
+                            <div class="form-group descrit_edite">
+                                <label for="description" id="descri">Descrição </label>
+                            </div>
+                            <img class="img_edit" src="https://png.icons8.com/color/230/000000/cloud-storage.png">
+                            <img class="img_edit1" src="https://png.icons8.com/flat_round/64/000000/synchronize.png">
+                            <div class="form-group dateAmount_edite">
+                                <label for="number" id="valor">Valor </label>
+                                
+                            </div>
+                            <div class="form-group dateAmount_edite">
+                                <label for="dateAdd" id="data">Data </label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-body" id="card">
+                        <button type="button" class="btn btn-success" onclick="SalvarEdicao();return false;">Editar<img style="margin-left: 30px" src="https://png.icons8.com/flat_round/40/000000/edit-file.png"></button>
+                        <img style="margin-left: 200px" src="https://png.icons8.com/dusk/70/000000/edit-file.png">
+                        
+                    </div>
+                </div>    
+            </div>
+    <script src="assets/js/AppList.js"></script>
+</body>
+</html>

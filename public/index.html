@@ -1,0 +1,59 @@
+<html lang="pt-Br">
+
+<head>
+  <meta charset="utf-8">
+
+  <!--BOOTSTRAP -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  
+
+  <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js">
+    </script>
+  <script src="assets/js/config.js"></script>
+
+</head>
+
+<body onload="auth();">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><img src="https://png.icons8.com/flat_round/48/000000/home.png">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="add.html"><img src="https://png.icons8.com/color/48/000000/plus-2-math.png">Add</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="list.html"><img src="https://png.icons8.com/dusk/50/000000/add.png">List</a>
+        </li>
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+          <img src="https://png.icons8.com/dusk/48/000000/search-property.png">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="card crd" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Cadastro de Despesas</h5>
+        <p class="card-text">Projeto em SI que visa criar um software que faça o controle de despesas.</p>
+        <a href="add.html" class="btn btn-outline-success">Cadastrar<img src="https://png.icons8.com/color/48/000000/shopping-cart.png"></a>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

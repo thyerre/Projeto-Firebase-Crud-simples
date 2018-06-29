@@ -1,0 +1,6 @@
+1) Criar uma conta no Google caso não tenha.
+2)Acessar o fire base e criar um novo aplicativo.
+3)criar uma pasta local com o nome do projeto.
+4)Criar um arquivo com o nome index.html e salvar na pasta criada.
+5)copiar codigo disponivel no farebase e incorporalo em seu arquivo html.
+6)instalar o firebase tools com o codigo npm 'install -g firebase-tools'.

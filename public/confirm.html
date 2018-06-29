@@ -1,0 +1,54 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        
+        <!--BOOTSTRAP -->        
+        <script src="assets/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css"> 
+        <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+        <script src="assets/js/jquery-3.3.1.js"></script>
+        <script src="assets/js/config.js"></script>
+        
+    </head>
+    <body onload="itemExcluir()">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"><img src="https://png.icons8.com/flat_round/48/000000/home.png">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="add.html"><img src="https://png.icons8.com/color/48/000000/plus-2-math.png">Add</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="list.html"> <img src="https://png.icons8.com/dusk/50/000000/add.png">List</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <img src="https://png.icons8.com/dusk/48/000000/search-property.png">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>   
+            <div class="container con">
+                <div class="card alert alert-success" style="width: 50%;margin-left:20%">
+                    <div class="card-header " id="sucesso">
+                        <h4 class="alert-heading">O item será excluido permanentemente!!</h4>
+                        <a href="http://www.imagensanimadas.com/cat-lixeiras-576.htm"><img class="gif_lixeira" src="http://www.imagensanimadas.com/data/media/576/lixeira-imagem-animada-0004.gif" border="0" alt="lixeira-imagem-animada-0004" /></a>
+                    </div>
+                    <div class="card-body">
+                        <hr/>
+                        <button class="btn btn-danger" onclick="excluir();">Confirmar</button>
+                        <a href="list.html" class="btn btn-primary">Voltar</a>
+                        <img class="lixeira" src="https://png.icons8.com/dusk/50/000000/waste.png">
+                    </div>
+                </div>    
+            </div>
+    <script src="assets/js/AppList.js"></script>
+</body>
+</html>

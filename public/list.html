@@ -1,0 +1,57 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        
+        <!--BOOTSTRAP -->        
+        <script src="assets/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css"> 
+        <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+        <script src="assets/js/jquery-3.3.1.js"></script>
+        <script src="assets/js/notify.min.js"></script>
+        <script src="assets/js/config.js"></script>
+        
+    </head>
+    <body onload="RetornarDespesa()">
+                    
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html" ><img src="https://png.icons8.com/flat_round/48/000000/home.png">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="add.html"><img src="https://png.icons8.com/color/48/000000/plus-2-math.png">Add</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="list.html" id="Lista"><img src="https://png.icons8.com/dusk/50/000000/add.png">List</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <img src="https://png.icons8.com/dusk/48/000000/search-property.png">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </nav>   
+           
+            <div class="container con" id="container">
+                <table class="table tb" id="tdResultado">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Descrição</th>
+                    <th scope="col">Valor</th>
+                    <th scope="col">Data</th>
+                    <th scope="col" id="acao">Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="assets/js/AppList.js"></script>
+</body>
+</html>
